@@ -1,3 +1,4 @@
 git init(Initialization)
 git status(to track the status of my file)
-to add all files you will write git add --
+to add all files you will write git add --a
+git commit -m "you can write your message"
