@@ -1,0 +1,9 @@
+body{
+  font-family: verdana;
+  background-color:lightblue;
+}
+.content{
+  margin-left:650px;
+  background-color: white;
+  margin-right:650px;
+}

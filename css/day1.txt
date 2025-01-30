@@ -1,0 +1,8 @@
+Types of css selectors 
+1.type selectors 
+2.attribute selectrs 
+3.id selectors 
+4.class selectors
+5.universal selectors
+6.pseudo selectors
+7.combinator selector

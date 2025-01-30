@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Flex box</title>
+  <style>
+    .container{
+      background-color:lightblue;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+      align-items:center;
+      min-height:300px;
+      /*flex-wrap: wrap;*/
+      /*column-gap:30%;*/
+      
+    }
+
+    .item{
+      background-color:lightpink;
+      padding:20px;
+      border-style: dashed;
+      text-align:center;
+      flex-grow:1;
+    }
+
+    #item1{
+      flex-grow:5;
+      align-self: flex-end;
+    }
+
+    @media(max-width:500px){
+      .container{
+        flex-wrap: wrap;
+        background-color:green;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item" id="item1">item1</div>
+    <div class="item">item2</div>
+    <div class="item">item3</div>
+    <div class="item">item4</div>
+    <div class="item">item5</div>
+    <div class="item">item6</div>
+    <div class="item">item7</div>
+    <div class="item">item8</div>
+    <div class="item">item9</div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid HW</title>
+
+  <style>
+    .container{
+      border-style:ridge;
+      border-color:lightblue;
+      background-color: lightcyan;
+      display:grid;
+      grid-template-columns:33% 33% 33%;
+      font-family:verdana;
+    }
+    .items{
+      background-color:lightgreen;
+      border-style:ridge;
+      border-color:lightblue;  
+    }
+    #item1{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      margin:10px;
+    
+      text-align:center;
+    
+      height:25px;
+    }
+
+    #item2{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      height:255px;
+    }
+    #item8{
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+    #item6{
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    #title{
+      
+    }
+  </style>
+
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="items" id="item1">
+      <h1 id="title">Famous Tourist Places of India</h1>
+    </div>
+
+    <div class="items" id="item2">
+      <img src="images/4081334.jpg" alt="img not found" width="10px" height="10px">
+    </div>
+
+    <div class="items">2</div>
+
+    <div class="items">3</div>
+
+    <div class="items">4</div>
+
+    <div class="items" id="item6">5</div>
+
+    <div class="items">desc</div>
+
+    <div class="items" id="item8">footer</div>
+
+  </div>
+
+</body>
+</html>

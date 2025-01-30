@@ -1,0 +1,3 @@
+git init(Initialization)
+git status(to track the status of my file)
+to add all files you will write git add --

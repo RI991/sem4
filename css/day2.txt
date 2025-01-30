@@ -1,0 +1,26 @@
+margin auto property automatically place the content in top-center of the window so use it carefully ;
+margin: top right bottom left(clockwise direction);
+margin: top right/left bottom;
+margin: top/bottom right/left;
+height=height+padding-top+border-top+border-bottom+margin-top+margin-bottom;
+
+Grid container and Grid Items
+conainer will be inside the items
+
+Grid template col->
+
+
+Grid template rows->
+  Icrease the size of row
+
+Grid template->
+  Shorthand property of grid template rows and column both 
+ Grid row start->
+ Grid row end->
+ Grid row gap->
+ Grid row ->rowstart/rowend
+ Grid col start->
+ Grid col end->
+ Grid col gap->
+ grid col->colstart/colend
+ grid area->rowstart/colstart/rowend/colend 

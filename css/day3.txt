@@ -1,0 +1,12 @@
+justify content is used with flex property
+diff bw align items and justify content
+
+  align items for vertically and 
+  justify content for horizontally...
+
+  //flex shrink:
+    it is by default 1;
+  //flex grow:
+    it is by default 0;
+    it fills the width between items
+    as you increase the size it will increase the size.
